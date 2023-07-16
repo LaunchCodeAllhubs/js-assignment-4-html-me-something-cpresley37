@@ -1,1 +1,6 @@
 /* Write your CSS here! */
+#chapter {
+    background-color: white;
+    display: inline-block;
+    position: relative;
+}
