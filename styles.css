@@ -1,21 +1,45 @@
 /* Write your CSS here! */
-/* #body {
-    background-image: images/066A3098.jpg" id="familyof4";
-    background-repeat:no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
-    opacity: 80;
-} */
 
-/* #chapter {
+/* id selector */
+#chapter {
     background-color: white;
     display: inline-block;
     position: relative; */
-/* } */
+}
 
-/* #coworkerPics {
-    float: right;
-    width: 200px;
-    height: 145px;
+/* id selector */
+#pics {
+    float:right;
+    height: 250px;
     object-fit: contain;
-} */
+    margin: 3px
+}
+
+/* element selector */
+body {
+    margin: 8px;
+    display: block;
+}
+
+/* id selector */
+#mainHeading {
+    color: red;
+    font-family: arial;
+}
+
+/* id selector */
+#subheading {
+    font-family: arial;
+    color: #2C3539;
+}
+
+/* class selector */
+.fun-paragraph {
+    color: green;
+}
+
+/* element selector */
+p {
+    font-family: sans-serif;
+    color: #625D5D;
+}
