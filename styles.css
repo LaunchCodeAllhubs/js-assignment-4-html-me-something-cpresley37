@@ -31,15 +31,15 @@ body {
     border-color: red;
 }
 
-/* class selector */
-.fun-paragraph {
-    color: green;
-}
-
 /* element selector */
 p {
     font-family: sans-serif;
     color: #625D5D;
+}
+
+/* class selector */
+.fun-paragraph {
+    color: green;
 }
 
 /* Picture Styles */
@@ -48,7 +48,7 @@ p {
     float:right;
     height: 250px;
     object-fit: contain;
-    margin: 3px;
+    margin: 5px;
     border-style: solid;
     border-color: #03314A;
 }
