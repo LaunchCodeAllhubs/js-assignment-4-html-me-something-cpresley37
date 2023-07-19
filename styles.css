@@ -1,13 +1,48 @@
+/* element selector */
+body {
+    margin: 8px;
+    display: block;
+    border-style: dashed;
+    border-color: #03314A;
+}
+
 /* id selector */
+#mainHeading {
+    color: red;
+    font-family: arial;
+    margin: 5px;
+}
+
+/* id selector - article/chapter headings*/
+#subheading {
+    font-family: arial;
+    color: #2C3539;
+    margin: 5px;
+}
+
+/* id selector - articles*/
 #chapter {
     background-color: white;
     display: inline-block;
     position: relative; */
-    margin: 15px;
+    margin: 30px;
+    padding: 30px;
     border-bottom-style: solid;
     border-color: red;
 }
 
+/* class selector */
+.fun-paragraph {
+    color: green;
+}
+
+/* element selector */
+p {
+    font-family: sans-serif;
+    color: #625D5D;
+}
+
+/* Picture Styles */
 /* id selector */
 #picsRight {
     float:right;
@@ -28,39 +63,15 @@
     border-color: #03314A;
 }
 
-/* element selector */
-body {
-    margin: 8px;
-    display: block;
-}
-
 /* id selector */
-#mainHeading {
-    color: red;
-    font-family: arial;
-    margin: 5px;
+#picsCenter {
+    float:center;
+    height: 250px;
+    object-fit: contain;
+    margin: 3px;
+    border-style: solid;
+    border-color: #03314A;
 }
-
-/* id selector */
-#subheading {
-    font-family: arial;
-    color: #2C3539;
-    margin: 5px;
-}
-
-/* class selector */
-.fun-paragraph {
-    color: green;
-}
-
-/* element selector */
-p {
-    font-family: sans-serif;
-    color: #625D5D;
-}
-
-/* * {box-sizing:border-box} WHAT IS THIS????? */
-
 
 
 /* Slideshow container */
